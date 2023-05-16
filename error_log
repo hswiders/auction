@@ -1,0 +1,131 @@
+[19-Apr-2022 07:27:08 America/Chicago] PHP Fatal error:  Cannot redeclare checkConnections() (previously declared in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php:13) in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php on line 40
+[19-Apr-2022 07:28:09 America/Chicago] PHP Fatal error:  Cannot redeclare checkConnections() (previously declared in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php:13) in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php on line 40
+[19-Apr-2022 07:29:08 America/Chicago] PHP Fatal error:  Cannot redeclare checkConnections() (previously declared in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php:13) in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php on line 40
+[19-Apr-2022 07:30:02 America/Chicago] PHP Fatal error:  Cannot redeclare checkConnections() (previously declared in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php:13) in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php on line 40
+[19-Apr-2022 07:30:09 America/Chicago] PHP Fatal error:  Cannot redeclare checkConnections() (previously declared in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php:13) in /home4/bluednmd/public_html/WEB01/chatesi/app/Helpers/common_helper.php on line 40
+[20-Apr-2022 03:47:25 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199245824 bytes) in /home4/bluednmd/public_html/WEB01/chatesi/app/Views/admin/groupadd.php on line 126
+[20-Apr-2022 03:49:05 America/Chicago] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199245824 bytes) in /home4/bluednmd/public_html/WEB01/chatesi/app/Views/admin/groupadd.php on line 126
+[09-Aug-2022 14:40:07 Asia/Hong_Kong] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home4/bluednmd/public_html/WEB01/auction/system/Database/BaseBuilder.php on line 2684
+[30-Aug-2022 21:24:27 Asia/Hong_Kong] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home4/bluednmd/public_html/WEB01/auction/system/Database/BaseBuilder.php on line 2399
+[19-Sep-2022 14:45:04 Asia/Hong_Kong] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home4/bluednmd/public_html/WEB01/auction/system/Database/MySQLi/Connection.php on line 292
+[19-Sep-2022 14:52:41 Asia/Hong_Kong] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home4/bluednmd/public_html/WEB01/auction/system/Database/MySQLi/Connection.php on line 292
+[19-Sep-2022 14:54:52 Asia/Hong_Kong] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home4/bluednmd/public_html/WEB01/auction/system/Database/BaseBuilder.php on line 2684
+[19-Sep-2022 14:57:08 Asia/Hong_Kong] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home4/bluednmd/public_html/WEB01/auction/system/Database/MySQLi/Connection.php on line 292
+[19-Sep-2022 14:59:40 Asia/Hong_Kong] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home4/bluednmd/public_html/WEB01/auction/system/Database/BaseBuilder.php on line 2661
+[30-Jan-2023 18:27:24 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[30-Jan-2023 18:28:44 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[30-Jan-2023 18:29:54 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[30-Jan-2023 18:31:39 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[30-Jan-2023 18:34:00 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[30-Jan-2023 18:45:16 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[02-Feb-2023 16:36:27 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[02-Feb-2023 16:39:29 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[02-Feb-2023 16:44:35 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[02-Feb-2023 18:38:06 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[02-Feb-2023 18:59:17 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[02-Feb-2023 19:36:11 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41
+[02-Feb-2023 19:38:33 Asia/Hong_Kong] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home4/bluednmd/public_html/WEB01/auction/staging/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home4/bluednmd/public_html/WEB01/auction/staging/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home4/bluednmd/public_html/WEB01/auction/staging/system/Format/JSONFormatter.php on line 41

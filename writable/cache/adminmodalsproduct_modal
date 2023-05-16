@@ -1,0 +1,74 @@
+a:3:{s:4:"time";i:1683801882;s:3:"ttl";i:0;s:4:"data";s:3099:"<!-- DEBUG-VIEW START 1 APPPATH/Views/admin/modals/product_modal.php -->
+<div class="modal" id="myviewModal12248">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+        <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Product Details</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+      <!-- Modal body -->
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">Title</div>
+                    <div class="col-md-8"><b>RIDE TO HELL: RETRIBUTION</b></div>
+                </div>
+                <hr>
+                                      
+                <div class="row">
+                    <div class="col-md-4">Category</div>
+                    <div class="col-md-8"><b>PC</b></div>
+                </div>
+                  
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">SubCategory</div>
+                    <div class="col-md-8"><b></b></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">Publisher</div>
+                                        <div class="col-md-8"><b>Deep Silver</b></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">Format</div>
+                    <div class="col-md-8"><b></b></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">Release Date</div>
+                    <div class="col-md-8"><b>1970-01-01</b></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">Price</div>
+                    <div class="col-md-8"><b>HKD</b></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">Image</div>
+                       
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                <img style="height: 100px;width: 100px;" class="d-block" src="https://xchange-game.com/staging/assets/product_image/PC-RIDETOHELLRETRIBUTION.jpg" alt="">
+                            </div>
+                                                    </div>
+                        
+                    </div>
+                </div>
+            </div>    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="printData('#myviewModal12248')">Print</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH/Views/admin/modals/product_modal.php -->
+";}

@@ -1,0 +1,39 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+# Ignore ZIP files
+*.zip
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore video files
+*.mp4
+# Add other video formats you want to ignore here, for example:
+*.avi
+*.mov
+*.mkv
+*.wmv
